@@ -1,0 +1,15 @@
+composer require pusher/pusher-php-server 7.2.3
+
+.env file:
+BROADCAST_DRIVER=pusher
+
+npm install --save-dev laravel-echo pusher-js
+"laravel-echo": "^1.15.1",
+"pusher-js": "^8.0.2",
+
+resources\js\bootstrap.js:
+//
+
+config\app.php:
+//App\Providers\BroadcastServiceProvider::class, => App\Providers\BroadcastServiceProvider::class,
+
